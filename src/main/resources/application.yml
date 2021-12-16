@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: tailerbox
+  profiles:
+    active: local
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  jpa:
+    open-in-view: false
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/**/*Mapper.xml
+
+logging:
+  config: classpath:logback-${spring.profiles.active}.xml
+
+#  configuration:
+#    map-underscore-to-camel-case: true
+
+#routes:
+#  api-version: 1
+#  api-base-uri: /api/v${routes.api-version}
+
+#pagehelper:
+#  auto-dialect: true
+#  helper-dialect: mariadb
+#  page-size-zero: false
+#  reasonable: true
+#  offset-as-page-num: false
+#  row-bounds-with-count: false
+#  auto-runtime-dialect: false
+#  close-conn: true
+#  default-count: true

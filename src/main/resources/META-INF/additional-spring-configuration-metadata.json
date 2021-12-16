@@ -1,0 +1,16 @@
+{
+  "properties": [
+    {
+      "name": "routes.api-version",
+      "type": "java.lang.String",
+      "description": "api route version.",
+      "defaultValue": "1"
+    },
+    {
+      "name": "routes.api-base-uri",
+      "type": "java.lang.String",
+      "description": "api route base path.",
+      "defaultValue": "/api"
+    }
+  ]
+}
