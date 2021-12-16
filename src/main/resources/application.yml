@@ -18,9 +18,9 @@ logging:
 #  configuration:
 #    map-underscore-to-camel-case: true
 
-#routes:
-#  api-version: 1
-#  api-base-uri: /api/v${routes.api-version}
+routes:
+  api-version: v1
+  api-base-uri: /api/${routes.api-version}
 
 #pagehelper:
 #  auto-dialect: true

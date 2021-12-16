@@ -3,13 +3,13 @@
     {
       "name": "routes.api-version",
       "type": "java.lang.String",
-      "description": "api route version.",
-      "defaultValue": "1"
+      "description": "API route version.",
+      "defaultValue": "v1"
     },
     {
       "name": "routes.api-base-uri",
       "type": "java.lang.String",
-      "description": "api route base path.",
+      "description": "API route base path.",
       "defaultValue": "/api"
     }
   ]
